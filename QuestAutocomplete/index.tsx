@@ -176,7 +176,7 @@ function QuestContextMenu(children: React.ReactNode[], props: { quest: any; }): 
 export default definePlugin({
     name: "QuestAutocomplete",
     description: "Right-click any enrolled quest to autocomplete it automatically.",
-    authors: [{ name: "You", id: 0n }],
+    authors: [{ name: "WlloX", id: 0n }],
 
     contextMenus: {
         "quests-entry": QuestContextMenu
